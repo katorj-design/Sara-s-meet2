@@ -13,6 +13,7 @@ import { CarruselComponent } from './carrusel/carrusel.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import {FormsModule} from '@angular/forms';
 import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavComponent } from './nav/nav.component';
     CardComponent,
     CarruselComponent,
     FormularioComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
